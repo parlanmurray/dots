@@ -74,7 +74,7 @@ elif [[ "${WEATHER_MAIN}" = *Cloud* ]]; then
 	if  [[ $1 = "-i" ]]; then
     echo "${ICON_CLOUDY} ${WEATHER_TEMP}${SYMBOL_FAHR}"
     elif  [[ $1 = "-t" ]]; then
-    echo "Ovecast."
+    echo "There's no reason a cloudy day can't be a good one."
 	else
     echo "${TEXT_CLOUDY} ${WEATHER_TEMP}${SYMBOL_FAHR}"
 	fi
@@ -98,7 +98,7 @@ else
 	if  [[ $1 = "-i" ]]; then
     echo "${ICON_MISC} ${WEATHER_MAIN} ${WEATHER_TEMP}${SYMBOL_FAHR}"
     elif  [[ $1 = "-t" ]]; then
-    echo "The weather is unknown"
+    echo "Here be dragons."
 	else
     echo "${WEATHER_MAIN} ${WEATHER_TEMP}${SYMBOL_FAHR}"
 	fi	

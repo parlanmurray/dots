@@ -6,4 +6,12 @@ Intended for personal backup but help yourself to any themes or configs that you
 
 ## Preview
 
+## sunrise
+![preview-sunrise](https://raw.githubusercontent.com/parlanmurray/dots/master/.themes/sunrise/example.png) <br />
+all files included in this repo, and some instructions on how to set up
 
+OS: Ubuntu 18.04 <br />
+Shell: bash <br />
+Theme: Arc-Red-Dark <br />
+Icons: Papirus-Dark <br /> 
+Terminal: tilix <br />

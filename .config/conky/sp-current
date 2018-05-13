@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# use sp to get the current track
+eval $(~/.config/conky/sp 'eval')
+
+if [[ $1 = "-a" ]]; then
+	echo "$SPOTIFY_ARTIST"
+else
+	echo "$SPOTIFY_TITLE"
+fi

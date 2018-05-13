@@ -1,0 +1,3 @@
+[submodule ".themes/sunrise/papirus-icon-theme"]
+	path = .themes/sunrise/papirus-icon-theme
+	url = https://github.com/PapirusDevelopmentTeam/papirus-icon-theme

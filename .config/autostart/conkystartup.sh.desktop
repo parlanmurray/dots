@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=./.conkystartup.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=conky
+Name=conky
+Comment[en_US]=runs script that opens conky window
+Comment=runs script that opens conky window

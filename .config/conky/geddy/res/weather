@@ -13,7 +13,7 @@ API_KEY="509aaaccd8581f96424f247ab1d595cc"
 
 
 # Check on http://openweathermap.org/find
-CITY_ID="4930956"
+CITY_ID="4951257"
 
 ICON_SUNNY="  Clear"
 ICON_CLOUDY="  Cloudy"
@@ -74,7 +74,7 @@ elif [[ "${WEATHER_MAIN}" = *Cloud* ]]; then
 	if  [[ $1 = "-i" ]]; then
     echo "${ICON_CLOUDY} ${WEATHER_TEMP}${SYMBOL_FAHR}"
     elif  [[ $1 = "-t" ]]; then
-    echo "There's no reason a cloudy day can't be a good one."
+    echo "Only the sky has to be cloudy."
 	else
     echo "${TEXT_CLOUDY} ${WEATHER_TEMP}${SYMBOL_FAHR}"
 	fi
